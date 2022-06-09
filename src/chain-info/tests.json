@@ -1,0 +1,17 @@
+{
+  "contracts": {
+    "FundMe": "b5396a8f14a3ba84833a560213d540b720029208",
+    "MockV3Aggregator": "ec69d3d4517b4bbc5b769352d75a8866a5f6069e",
+    "OpenZeppelin/openzeppelin-contracts@4.6.0/SafeMath": "1ce946f6a4eaa185320328620ccf999b9e86db7c"
+  },
+  "tests": {
+    "tests/test_fundme.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".s",
+      "sha1": "b3ad4b4ed0e683c915b36cf97197ad5545dc7192",
+      "txhash": []
+    }
+  },
+  "tx": {}
+}
