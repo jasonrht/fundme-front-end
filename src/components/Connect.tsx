@@ -4,7 +4,7 @@ export const Connect = () => {
     const { account, activateBrowserWallet, deactivate } = useEthers()
 
     return (
-        <div className='absolute right-4 top-4'>
+        <div className='absolute right-4 bottom-4 sm:top-4 sm:bottom-0'>
             {account ?
                 <button className='w-[10rem] h-[5rem] mx-auto bg-blue-400 rounded-md p-2 shadow-lg border-2 border-black transition duration-100 ease-in-out hover:scale-[1.01] hover:shadow-2xl' onClick={deactivate}>
                     Disconnect

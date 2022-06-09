@@ -5,7 +5,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import { Mainnet, Config, DAppProvider, ChainId } from '@usedapp/core';
+import { Kovan, Rinkeby, Config, DAppProvider, ChainId } from '@usedapp/core';
 import { getDefaultProvider } from 'ethers';
 
 const root = ReactDOM.createRoot(
@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <DAppProvider config={{
-    supportedChains: [ChainId.Kovan, ChainId.Rinkeby],
+    networks: [Kovan, Rinkeby],
   }}>
     <BrowserRouter>
       <App />
