@@ -4,7 +4,11 @@ module.exports = {
     "./public/index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Rubik': ['Rubik', 'sans-serif']
+      }
+    },
   },
   plugins: [],
   content: ["./src/**/*.{js,jsx,ts,tsx}"]

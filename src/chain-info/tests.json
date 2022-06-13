@@ -1,5 +1,6 @@
 {
   "contracts": {
+    "ERC20": "5b993d52d116ff11c027c218af95be329f80b4e2",
     "FundMe": "b5396a8f14a3ba84833a560213d540b720029208",
     "MockV3Aggregator": "ec69d3d4517b4bbc5b769352d75a8866a5f6069e",
     "OpenZeppelin/openzeppelin-contracts@4.6.0/SafeMath": "1ce946f6a4eaa185320328620ccf999b9e86db7c"
@@ -9,7 +10,7 @@
       "coverage": false,
       "isolated": false,
       "results": ".s",
-      "sha1": "b3ad4b4ed0e683c915b36cf97197ad5545dc7192",
+      "sha1": "e48b5a3d02ca304630d8004031019ca6706fdd63",
       "txhash": []
     }
   },
