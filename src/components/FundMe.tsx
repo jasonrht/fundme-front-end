@@ -44,12 +44,7 @@ export const FundMe = () => {
                     <a
                         href={`https://rinkeby.etherscan.io/address/${fundMeAddress}`}
                         className='hover:opacity-[50%]'
-                    > here</a>
-                    :
-                    <a
-                        href={`https://rinkeby.etherscan.io/address/${fundMeAddress}`}
-                        className='hover:opacity-[50%]'
-                    > {fundMeAddress} </a>
+                    > here.</a>
                 </p>
                 <div className='grid my-6'>
                     <p>Enter donation amount in ETH: </p>
